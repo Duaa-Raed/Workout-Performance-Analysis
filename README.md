@@ -34,7 +34,7 @@ A deep learning project that automatically classifies workout exercises in real-
   
 -----
 ## Overview
----
+
 
 This project addresses the challenge of automated exercise form detection using computer vision and deep learning. The system:
 
@@ -43,9 +43,9 @@ This project addresses the challenge of automated exercise form detection using 
 - Classifies exercises using a custom PyTorch neural network
 - Works in real-time with new video inputs
 
------
+
 ##  Dataset
----
+
 Source: Workout Fitness Video Dataset from Kaggle
 Dataset Details:
 
