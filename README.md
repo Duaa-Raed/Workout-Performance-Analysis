@@ -31,6 +31,7 @@ A deep learning project that automatically classifies workout exercises in real-
 - [License](#License)
  
 - [Contact](#Contact)
+  
 -----
 ## Overview
 ---
@@ -42,4 +43,34 @@ This project addresses the challenge of automated exercise form detection using 
 - Classifies exercises using a custom PyTorch neural network
 - Works in real-time with new video inputs
 
+-----
+##  Dataset
+---
+Source: Workout Fitness Video Dataset from Kaggle
+Dataset Details:
 
+Multiple exercise categories (e.g., squats, push-ups, lunges, etc.)
+Video format: MP4
+Each video contains demonstrations of a single exercise type
+Videos vary in duration, angle, and lighting conditions
+
+Preprocessing:
+
+Each video frame is processed using MediaPipe Pose
+33 landmarks are extracted per frame (x, y, z coordinates)
+Total features per frame: 99 (33 landmarks × 3 coordinates)
+Labels are assigned based on the exercise folder name
+
+---
+##  Technologies Used
+--- 
+
+| Category | Tools & Libraries |
+|----------|-------------------|
+| **Programming Language** | Python 3.8+ |
+| **Deep Learning Framework** | PyTorch |
+| **Computer Vision** | MediaPipe, OpenCV |
+| **Data Processing** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **Model Evaluation** | Scikit-learn |
+| **Environment** | Google Colab |
