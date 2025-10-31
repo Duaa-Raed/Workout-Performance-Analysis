@@ -79,13 +79,14 @@ Labels are assigned based on the exercise folder name
 ## Model Architecture
 
 Neural Network Design
+### Neural Network Design
 
-Input Layer:    99 features (33 landmarks × 3 coordinates)
-                ↓
-Hidden Layer 1: 512 neurons + ReLU + Dropout(0.4)
-                ↓
-Hidden Layer 2: 256 neurons + ReLU + Dropout(0.4)
-                ↓
-Hidden Layer 3: 128 neurons + ReLU
-                ↓
-Output Layer:   N classes (number of exercise types)
+> **Input Layer:** 99 features (33 landmarks × 3 coordinates)  
+> ↓  
+> **Hidden Layer 1:** 512 neurons + ReLU + Dropout(0.4)  
+> ↓  
+> **Hidden Layer 2:** 256 neurons + ReLU + Dropout(0.4)  
+> ↓  
+> **Hidden Layer 3:** 128 neurons + ReLU  
+> ↓  
+> **Output Layer:** N classes (number of exercise types)
