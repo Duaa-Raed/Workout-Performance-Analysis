@@ -61,9 +61,9 @@ Each video frame is processed using MediaPipe Pose
 Total features per frame: 99 (33 landmarks × 3 coordinates)
 Labels are assigned based on the exercise folder name
 
----
+
 ##  Technologies Used
---- 
+
 
 | Category | Tools & Libraries |
 |----------|-------------------|
@@ -74,3 +74,18 @@ Labels are assigned based on the exercise folder name
 | **Visualization** | Matplotlib, Seaborn |
 | **Model Evaluation** | Scikit-learn |
 | **Environment** | Google Colab |
+
+
+## Model Architecture
+
+Neural Network Design
+
+Input Layer:    99 features (33 landmarks × 3 coordinates)
+                ↓
+Hidden Layer 1: 512 neurons + ReLU + Dropout(0.4)
+                ↓
+Hidden Layer 2: 256 neurons + ReLU + Dropout(0.4)
+                ↓
+Hidden Layer 3: 128 neurons + ReLU
+                ↓
+Output Layer:   N classes (number of exercise types)
