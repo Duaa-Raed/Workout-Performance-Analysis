@@ -6,16 +6,28 @@ A deep learning project that automatically classifies workout exercises in real-
 ---
  Table of Contents
 
-Overview
-Dataset
-Technologies Used
-Model Architecture
-Installation
-Usage
-Results
-Project Structure
-Challenges & Learnings
-Future Improvements
-Contributing
-License
-Contact
+- [Overview](#Overview)
+
+- [Dataset](#Dataset)
+
+- [Technologies Used](#Technologie-Used)
+
+- [Model Architecture](#Model-Architecture)
+
+- [Installation](#Installation)
+
+- [Usage](#Usage)
+
+- [Results](#Results)
+
+- [Project Structure](#Project-Structure)
+
+- [Challenges & Learnings](#Challenges-&-Learnings)
+
+- [Future Improvements](#Future-Improvements)
+
+- [Contributing](#Contributing)
+
+- [License](#License)
+- 
+- [Contact](#Contact)
