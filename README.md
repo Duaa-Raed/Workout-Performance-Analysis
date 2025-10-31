@@ -29,5 +29,17 @@ A deep learning project that automatically classifies workout exercises in real-
 - [Contributing](#Contributing)
 
 - [License](#License)
-- 
+ 
 - [Contact](#Contact)
+-----
+##Overview
+---
+
+This project addresses the challenge of automated exercise form detection using computer vision and deep learning. The system:
+
+- Processes workout videos frame-by-frame
+- Detects 33 body keypoints (landmarks) using MediaPipe Pose
+- Classifies exercises using a custom PyTorch neural network
+- Works in real-time with new video inputs
+
+
