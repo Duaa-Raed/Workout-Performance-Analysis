@@ -108,6 +108,21 @@ Labels are assigned based on the exercise folder name
 Key Features
 
 - Dropout regularization to prevent overfitting
--Learning rate scheduling for better convergence
+- Learning rate scheduling for better convergence
 - Early stopping to avoid unnecessary training
 - Data standardization using StandardScaler
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Google Colab (recommended) or local Jupyter environment
+- Kaggle API credentials
+
+### Setup Instructions
+
+# 1.Clone the repository: #
+
+git clone https://github.com/Duaa-Raed/Workout-Performance-Analysis.git
+cd Workout-Performance-Analysis
