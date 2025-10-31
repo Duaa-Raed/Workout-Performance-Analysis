@@ -32,7 +32,7 @@ A deep learning project that automatically classifies workout exercises in real-
  
 - [Contact](#Contact)
 -----
-##Overview
+## Overview
 ---
 
 This project addresses the challenge of automated exercise form detection using computer vision and deep learning. The system:
