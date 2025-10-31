@@ -12,7 +12,7 @@ A deep learning project that automatically classifies workout exercises in real-
 
 - [Dataset](#Dataset)
 
-- [Technologies Used](#Technologie-Used)
+- [Technologies Used](#Technologies-Used)
 
 - [Model Architecture](#Model-Architecture)
 
@@ -109,7 +109,7 @@ This project addresses the challenge of automated exercise form detection using 
 | **Regularization** | Dropout (0.4) |
 
 
-Key Features
+### Key Features
 
 - Dropout regularization to prevent overfitting
 - Learning rate scheduling for better convergence
@@ -231,10 +231,13 @@ Solutions Implemented
 
 ## Acknowledgments
 
-Dataset provided by Hasyim Abdillah on Kaggle
-MediaPipe Pose by Google Research
-PyTorch framework by Meta AI
-Inspired by the growing field of AI in fitness and health tech
+- Dataset provided by Hasyim Abdillah on Kaggle
+  
+- MediaPipe Pose by Google Research
+  
+- PyTorch framework by Meta AI
+ 
+- Inspired by the growing field of AI in fitness and health tech
 
 ## License
 
