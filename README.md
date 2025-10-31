@@ -3,7 +3,7 @@ Workout-Performance-Analysis
  
 ## Exercise Form Recognition using Pose Estimation
 
-A deep learning project that automatically classifies workout exercises in real-time using computer vision and pose estimation. The system extracts 33 body landmarks from video frames and uses a neural network to identify the type of exercise being performed.
+A deep learning project that automatically classifies workout exercises in real-time using computer vision and pose estimation. The system extracts 33 body landmarks from video frames and uses a neural network to identify the type of exercise being performed .
 
 ---
  Table of Contents
