@@ -78,7 +78,6 @@ Labels are assigned based on the exercise folder name
 
 ## Model Architecture
 
-Neural Network Design
 ### Neural Network Design
 
 > **Input Layer:** 99 features (33 landmarks × 3 coordinates)  
@@ -90,3 +89,25 @@ Neural Network Design
 > **Hidden Layer 3:** 128 neurons + ReLU  
 > ↓  
 > **Output Layer:** N classes (number of exercise types)
+
+
+## Training Configuration
+
+| Parameter | Value |
+|-----------|-------|
+| **Optimizer** | Adam |
+| **Learning Rate** | 0.001 (initial) |
+| **Scheduler** | StepLR (step_size=10, gamma=0.5) |
+| **Loss Function** | CrossEntropyLoss |
+| **Batch Size** | 32 |
+| **Max Epochs** | 80 |
+| **Early Stopping** | Patience = 5 |
+| **Regularization** | Dropout (0.4) |
+
+
+Key Features
+
+- Dropout regularization to prevent overfitting
+-Learning rate scheduling for better convergence
+- Early stopping to avoid unnecessary training
+- Data standardization using StandardScaler
