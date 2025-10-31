@@ -1,5 +1,7 @@
 Workout-Performance-Analysis
  ---
+ 
+## Exercise Form Recognition using Pose Estimation
 
 A deep learning project that automatically classifies workout exercises in real-time using computer vision and pose estimation. The system extracts 33 body landmarks from video frames and uses a neural network to identify the type of exercise being performed.
 
@@ -41,20 +43,27 @@ This project addresses the challenge of automated exercise form detection using 
 
 ##  Dataset
 
-Source: Workout Fitness Video Dataset from Kaggle
-Dataset Details:
+*Source:* Workout Fitness Video Dataset from Kaggle
 
-Multiple exercise categories (e.g., squats, push-ups, lunges, etc.)
-Video format: MP4
-Each video contains demonstrations of a single exercise type
-Videos vary in duration, angle, and lighting conditions
+*Dataset Details:*
 
-Preprocessing:
+- Multiple exercise categories (e.g., squats, push-ups, lunges, etc.)
+  
+- Video format: MP4
+  
+- Each video contains demonstrations of a single exercise type 
 
-Each video frame is processed using MediaPipe Pose
-33 landmarks are extracted per frame (x, y, z coordinates)
-Total features per frame: 99 (33 landmarks × 3 coordinates)
-Labels are assigned based on the exercise folder name
+- Videos vary in duration, angle, and lighting conditions
+
+*Preprocessing:*
+
+- Each video frame is processed using MediaPipe Pose
+  
+- 33 landmarks are extracted per frame (x, y, z coordinates)
+
+- Total features per frame: 99 (33 landmarks × 3 coordinates)
+  
+- Labels are assigned based on the exercise folder name
 
 
 ##  Technologies Used
@@ -219,6 +228,13 @@ Solutions Implemented
 -  Support multi-person detection
 
 -  Add voice feedback for form correction
+
+## Acknowledgments
+
+Dataset provided by Hasyim Abdillah on Kaggle
+MediaPipe Pose by Google Research
+PyTorch framework by Meta AI
+Inspired by the growing field of AI in fitness and health tech
 
 ## License
 
