@@ -5,7 +5,7 @@ Workout-Performance-Analysis
 
 A deep learning project that automatically classifies workout exercises in real-time using computer vision and pose estimation. The system extracts 33 body landmarks from video frames and uses a neural network to identify the type of exercise being performed .
 
-A Proof-of-Concept project exploring frame-by-frame exercise recognition using MediaPipe and PyTorch. Note: This approach highlights the need for temporal models (LSTMs) for better accuracy."
+**A Proof-of-Concept project exploring frame-by-frame exercise recognition using MediaPipe and PyTorch. Note: This approach highlights the need for temporal models (LSTMs) for better accuracy*
 ---
  Table of Contents
 
